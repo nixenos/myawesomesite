@@ -49,8 +49,11 @@ const Footer = () => {
               }
               
               <Col md={4}>
-                <h6 className="text-dark mb-3">Afiliate links</h6>
-                <h7>Ha! You wish</h7>
+                <h6 className="text-dark mb-3">Crypto</h6>
+                <ul className="list-unstyled company-sub-menu">
+                    <li>Monero wallet: </li>
+                    <li>Bitcoin wallet: </li>
+                </ul>
               </Col>
             </Row>
           </Col>
